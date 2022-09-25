@@ -5,7 +5,7 @@
   "height": 400,
   "projection": {"type": "equalEarth"},
   "data": {
-    "url": "https://raw.githubusercontent.com/lkjh123/3179/main/World%20Happiness/ne_110m.json",
+    "url": "https://raw.githubusercontent.com/lkjh123/3179/main/World_Happiness/data/ne_110m.json",
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
   },
   "transform": [
