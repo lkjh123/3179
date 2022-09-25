@@ -13,7 +13,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/lkjh123/3179/main/World%20Happiness.xlsx%20-%202021.csv"
+          "url": "https://raw.githubusercontent.com/lkjh123/3179/main/World_Happiness/data/World%20Happiness%20-%202021.csv"
         },
         "key": "Country",
         "fields": ["Happiness"]
