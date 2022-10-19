@@ -1,0 +1,18 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 400,
+  "data": {"url": "https://raw.githubusercontent.com/lkjh123/3179/main/World_Happiness/data/top10.xlsx%20-%20Sheet1.csv"},
+  "mark": "point",
+  "transform":[
+    {"calculate": "1*datum['Ladder score' ]", "as": "Happiness"}
+  ],
+  "encoding": {
+    "x": {"field": "Logged GDP per capita", "type": "quantitative", "scale": {"domain": [10,12]}},
+    "y": {"field": "Freedom to make life choices", "type": "quantitative", "scale": {"domain": [0.9, 1.0]}},
+    "color": {"field": "Country name", "type": "nominal"},
+    "tooltip": [
+      {"field": "Country name", "type": "nominal"},
+      {"field":"Happiness", "type":"quantitative"}]
+  }
+}
